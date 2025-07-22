@@ -1,0 +1,7 @@
+[user]
+	email = le-chartreux-vert@protonmail.com
+	name = le-chartreux
+[core]
+	editor = nano
+[advice]
+	defaultBranchName = false
