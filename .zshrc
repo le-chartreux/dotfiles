@@ -51,6 +51,7 @@ bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
+bindkey "^[[3~" delete-char
 
 # History
 HISTSIZE=5000
