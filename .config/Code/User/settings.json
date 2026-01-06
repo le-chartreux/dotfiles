@@ -13,4 +13,6 @@
         "*.egg-info": true,
         "build": true
     },
+    "git.confirmSync": false,
+    "git.autofetch": true,
 }
