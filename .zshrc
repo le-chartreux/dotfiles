@@ -78,6 +78,8 @@ alias ls='eza --color'
 alias ll='ls -l'
 alias lla='ll -a'
 alias c='clear'
+alias n='nvim'
+alias nd='n .'
 
 # Shell integrations
 eval "$(fzf --zsh)"
