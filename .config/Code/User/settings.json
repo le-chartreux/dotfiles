@@ -15,4 +15,5 @@
     },
     "git.confirmSync": false,
     "git.autofetch": true,
+    "workbench.startupEditor": "none",
 }
