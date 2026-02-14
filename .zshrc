@@ -92,3 +92,8 @@ if [ -f "$HOME/.local/bin/env" ]; then
   eval "$(uvx --generate-shell-completion zsh)"
 fi
 
+# zellij
+if (( $+commands[zellij] )); then
+  eval "$(zellij setup --generate-auto-start zsh)"
+fi
+
