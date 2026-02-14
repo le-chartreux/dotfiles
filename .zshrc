@@ -106,6 +106,11 @@ function current_dir() {
 
 function change_tab_title() {
     local title=$1
+
+    if [ ${#title} -gt 15 ]; then
+      title="${title:0:12}…"
+    fi
+
     command nohup zellij action rename-tab $title >/dev/null 2>&1
 }
 
