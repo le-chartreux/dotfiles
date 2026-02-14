@@ -93,6 +93,8 @@ if [ -f "$HOME/.local/bin/env" ]; then
 fi
 
 # zellij
+# Use current command as tab name, or folder if no command is running.
+# Slightly adapted from https://gist.github.com/JonnieCache/1e2fdc2f5737f640e150ea40da5b9d1d.
 function current_dir() {
     local current_dir=$PWD
     if [[ $current_dir == $HOME ]]; then
