@@ -17,6 +17,15 @@
     "ansible.lightspeed.enabled": false,
     "chat.disableAIFeatures": true,
     "editor.minimap.enabled": false,
+    "errorLens.codeLensLength": {
+        "max": 100,
+        "min": 0
+    },
+    "errorLens.excludeBySource": [
+        "cSpell"
+    ],
+    "errorLens.fontStyleItalic": true,
+    "errorLens.removeLinebreaks": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.experimental.affinity": {
