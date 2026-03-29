@@ -16,6 +16,9 @@
     },
     "ansible.lightspeed.enabled": false,
     "chat.disableAIFeatures": true,
+    "cSpell.userWords": [
+        "noqa"
+    ],
     "editor.minimap.enabled": false,
     "errorLens.codeLensLength": {
         "max": 100,
