@@ -59,4 +59,16 @@
         "backspace",
         "delete"
     ],
+    "[ansible]": {
+        "editor.autoIndent": "advanced",
+        "editor.detectIndentation": true,
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "comments": true,
+            "other": true,
+            "strings": true
+        },
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    }
 }
