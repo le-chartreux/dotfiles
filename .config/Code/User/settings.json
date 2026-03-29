@@ -1,28 +1,37 @@
 {
-    "terminal.integrated.initialHint": false,
-    "chat.disableAIFeatures": true,
-    "files.autoSave": "afterDelay",
+    "[ansible]": {
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.detectIndentation": true,
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "comments": true,
+            "other": true,
+            "strings": true
+        },
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
     "ansible.lightspeed.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "explorer.confirmDragAndDrop": false,
+    "chat.disableAIFeatures": true,
     "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "files.autoSave": "afterDelay",
     "files.exclude": {
         ".ansible": true,
         ".venv": true,
         "*.egg-info": true,
         "build": true
     },
-    "git.confirmSync": false,
     "git.autofetch": true,
-    "workbench.startupEditor": "none",
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
-    "explorer.confirmDelete": false,
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
+    "git.confirmSync": false,
+    "terminal.integrated.initialHint": false,
     "vscode-neovim.ctrlKeysForInsertMode": [
         "d",
         "h",
@@ -59,16 +68,7 @@
         "backspace",
         "delete"
     ],
-    "[ansible]": {
-        "editor.autoIndent": "advanced",
-        "editor.detectIndentation": true,
-        "editor.insertSpaces": true,
-        "editor.quickSuggestions": {
-            "comments": true,
-            "other": true,
-            "strings": true
-        },
-        "editor.tabSize": 2,
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    }
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none"
 }
