@@ -20,4 +20,43 @@
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
     "explorer.confirmDelete": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.ctrlKeysForInsertMode": [
+        "d",
+        "h",
+        "j",
+        "m",
+        "o",
+        "t",
+        "u",
+        "w"
+    ],
+    "vscode-neovim.ctrlKeysForNormalMode": [
+        "b",
+        "d",
+        "e",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "o",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "/",
+        "]",
+        "right",
+        "left",
+        "up",
+        "down",
+        "backspace",
+        "delete"
+    ],
 }
