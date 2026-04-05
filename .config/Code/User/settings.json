@@ -46,6 +46,16 @@
     },
     "git.autofetch": true,
     "git.confirmSync": false,
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://esm.sh": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
     "terminal.integrated.initialHint": false,
     "vscode-neovim.ctrlKeysForInsertMode": [
         "d",
@@ -83,7 +93,10 @@
         "backspace",
         "delete"
     ],
+    "window.autoDetectColorScheme": true,
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
     "workbench.startupEditor": "none"
 }
