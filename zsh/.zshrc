@@ -86,6 +86,11 @@ alias stow='stow --no-folding'
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
+# cargo
+if [[ -d $HOME/.cargo/bin ]] && [[ ! $path[(r)$HOME/.cargo/bin] ]]; then
+  path+=("$HOME/.cargo/bin/")
+fi
+
 # uv
 if [ -f "$HOME/.local/bin/env" ]; then
   . "$HOME/.local/bin/env"
