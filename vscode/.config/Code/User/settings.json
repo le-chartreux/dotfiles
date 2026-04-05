@@ -98,5 +98,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "workbench.preferredLightColorTheme": "Visual Studio Light",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.lineNumbers": "relative"
 }
