@@ -80,6 +80,7 @@ alias lla='ll -a'
 alias c='clear'
 alias n='nvim'
 alias nd='n .'
+alias stow='stow --no-folding'
 
 # Shell integrations
 eval "$(fzf --zsh)"
