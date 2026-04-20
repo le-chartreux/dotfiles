@@ -19,6 +19,7 @@
     "cSpell.userWords": [
         "noqa"
     ],
+    "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "errorLens.codeLensLength": {
         "max": 100,
@@ -57,6 +58,7 @@
         "https://www.schemastore.org/": true
     },
     "terminal.integrated.initialHint": false,
+    "update.showReleaseNotes": false,
     "vscode-neovim.ctrlKeysForInsertMode": [
         "d",
         "h",
@@ -98,6 +100,5 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "workbench.preferredLightColorTheme": "Visual Studio Light",
-    "workbench.startupEditor": "none",
-    "editor.lineNumbers": "relative"
+    "workbench.startupEditor": "none"
 }
